@@ -1,0 +1,36 @@
+.del {
+    background: rosybrown;
+    color: #fff;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 10%;
+    
+  }
+  
+  
+  .todo {
+    background: #f4f4f4;
+    padding: 10px;
+    border-bottom: 1px #ccc dotted;
+  }
+  
+  
+  
+  td, th {
+    border: 1px solid #ddd;
+    padding: 1px;
+  }
+  
+  
+  th {
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    text-align: left;
+    background-color:gray;
+    color: white;
+  }
+  .is-complete
+  {
+    text-decoration: line-through;
+  }

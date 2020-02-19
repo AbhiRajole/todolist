@@ -1,0 +1,21 @@
+<div [ngClass]="setClasses()">
+   
+        
+        <table>
+        <tr>
+            <th>check</th>
+            <th>UserId</th>
+            <th>Title</th>
+            <th>Body</th>
+            <th>Delete</th>
+        </tr>
+        <tr>
+            <td><input (change)="onToggle(todo)" type="checkbox"></td>
+            <td>{{ todo.id }}</td>
+            <td>{{todo.title }}</td>
+            <td>{{ todo.body }}</td>
+           <td><button (click)="onDelete(todo)" class="del">Delete</button></td> 
+        </tr>
+        
+    </table>
+</div>
